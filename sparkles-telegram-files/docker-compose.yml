@@ -28,7 +28,7 @@ services:
       - ${APP_DATA_DIR}/data:/app/data
     healthcheck:
       test: ["CMD", "curl", "-f", "http://127.0.0.1/api/health"]
-      interval: 10s
-      retries: 3
+      interval: 20s
+      retries: 10
       timeout: 10s
-      start_period: 10s
+      start_period: 60s
