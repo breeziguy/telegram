@@ -4,13 +4,14 @@ services:
   app_proxy:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: sparkles-telegram-files_server_1
+      APP_HOST: sparkles-telegram-files_web_1
       APP_PORT: 80
 
-  server:
+  web:
     image: ghcr.io/jarvis2f/telegram-files:latest
     init: true
-    restart: unless-stopped
+    restart: on-failure
+    stop_grace_period: 1m
     environment:
       APP_ENV: "prod"
       # Umbrel provides APP_DATA_DIR; map it to the app's APP_ROOT
