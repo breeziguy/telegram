@@ -4,8 +4,8 @@ name: Telegram Files
 tagline: Self-hosted Telegram file downloader
 icon: https://raw.githubusercontent.com/jarvis2f/telegram-files/main/web/public/favicon.svg
 category: Media
-version: "0.2.4-1"
-port: 80
+version: "0.2.4-2"
+port: 6543
 description: >-
   Download and organize files from Telegram channels and groups. Supports multiple
   accounts, pause/resume, previews, automation rules, and statistics. Requires a
