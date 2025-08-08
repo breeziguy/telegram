@@ -1,0 +1,58 @@
+manifestVersion: 1
+id: sparkles-telegram-files
+name: Telegram Files
+tagline: Self-hosted Telegram file downloader
+icon: https://raw.githubusercontent.com/jarvis2f/telegram-files/main/web/public/favicon.svg
+category: Media
+version: "0.2.4"
+port: 6543
+description: >-
+  Download and organize files from Telegram channels and groups. Supports multiple
+  accounts, pause/resume, previews, automation rules, and statistics. Requires a
+  Telegram API ID and API HASH from https://my.telegram.org/apps.
+
+developer: jarvis2f
+website: https://github.com/jarvis2f/telegram-files
+submitter: Community
+submission: https://github.com/jarvis2f/telegram-files
+repo: https://github.com/jarvis2f/telegram-files
+support: https://github.com/jarvis2f/telegram-files/issues
+gallery:
+  - https://raw.githubusercontent.com/jarvis2f/telegram-files/main/misc/screenshot.png
+  - https://raw.githubusercontent.com/jarvis2f/telegram-files/main/misc/screenshot-2.png
+releaseNotes: >-
+  Initial Umbrel Community App packaging.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+manifestVersion: 1
+id: sparkles-hello-world
+name: Hello World
+tagline: Replace this tagline with your app's tagline
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "1.0.0"
+port: 4000
+description: >-
+  Add your app's description here.
+
+
+  You can also add newlines!
+
+developer: Umbrel
+website: https://umbrel.com
+submitter: Umbrel
+submission: https://github.com/getumbrel/umbrel-hello-world-app
+repo: https://github.com/getumbrel/umbrel-hello-world-app
+support: https://github.com/getumbrel/umbrel-hello-world-app/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
